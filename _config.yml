@@ -1,28 +1,39 @@
-name: UnveiledMoments
-favicon: null
-layout_spectrum: 0.2734680362045765
-typography_spectrum: 0.1351815953385085
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-  brandStrength: 0.17675928585231304
-  lightness: 0.9332090117968619
-  saturation: 0.3584470849018544
-  rhythmicContrast: 0.11131877382285893
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.8046595
+  brandStrength: 0.8978494
+  lightness: 0
+  brandColors:
+    - '#0F100F'
+    - '#888164'
+    - '#5D5B4B'
+    - '#DED9B4'
+  rhythmicContrast: 0.5340502
+typography_spectrum: 0.1351815953385085
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.6057348
+favicon: null
+name: UnveiledMoments
